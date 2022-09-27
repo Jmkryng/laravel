@@ -18,11 +18,9 @@ After setting up the `.env` run the following commands:
 ```bash
 # Install package dependencies 
 $ composer install
-$ npm i
 
 # Generate the APP_KEY and JWT_SECRET
 $ php artisan key:generate
-$ php artisan jwt:secret
 
 # Clear all composer's cache directories, Update Autoloader and Remove the cached bootstrap files
 $ composer clear
@@ -37,7 +35,6 @@ $ php artisan migrate:fresh --seed
 
 # Start the server
 $ php artisan serve
-$ npm run watch
 ```
 
 ## Understanding the repository
