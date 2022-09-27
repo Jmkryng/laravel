@@ -19,7 +19,7 @@ After setting up the `.env` run the following commands:
 # Install package dependencies 
 $ composer install
 
-# Generate the APP_KEY and JWT_SECRET
+# Generate the APP_KEY
 $ php artisan key:generate
 
 # Clear all composer's cache directories, Update Autoloader and Remove the cached bootstrap files
