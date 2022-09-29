@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Repositories;
+namespace App\Services;
 
 use App\Traits\ResponseAPI;
 
-class BaseRepository
+class Traits
 {
     use ResponseAPI;
 }
