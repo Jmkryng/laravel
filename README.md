@@ -42,7 +42,7 @@ $ php artisan serve
 |:------------------:|:------------------------------------:|
 |`main`              |The default branch; Vanilla Laravel.  |
 |`repository`        |Repository Design Pattern             |
-
+|`service`           |Services Design Pattern               |
 ## Commits 
 To be able for us to easily track our repository progress please use appropriate emojis at the start of description/message and issue-number at the end to determine type of commit.
 
