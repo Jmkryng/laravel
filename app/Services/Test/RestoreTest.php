@@ -2,8 +2,7 @@
 
 namespace App\Services\Test;
 
-use Traits,
-    Exception;
+use Traits, Exception;
 
 use App\Models\Test\Test;
 
