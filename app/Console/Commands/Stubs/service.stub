@@ -1,0 +1,19 @@
+<?php
+
+namespace DummyNamespace;
+
+use Traits, Exception;
+
+class DummyClass extends Traits
+{
+    public function execute($id){
+        try {
+        
+
+            return $this->success("");
+
+        } catch (Exception $e) {
+            return $this->error($e->getMessage());
+        }
+    }
+}
