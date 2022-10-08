@@ -43,34 +43,34 @@ class TestController extends Controller
     }
 
     protected function index() {
-        return $this->index->index();
+        return $this->index->execute();
     }
     
     protected function create(CreateTestRequest $request) {
-        return $this->create->create($request);
+        return $this->create->execute($request);
     }
     
     protected function show($id) {
-        return $this->show->show($id);
+        return $this->show->execute($id);
     }
     
     protected function update(UpdateTestRequest $request, $id) {
-        return $this->update->update($request, $id);
+        return $this->update->execute($request, $id);
     }
     
     protected function list(){
-        return $this->list->list();
+        return $this->list->execute();
     }
     
     protected function archive($id){
-        return $this->archive->archive($id);
+        return $this->archive->execute($id);
     }
     
     protected function restore($id){
-        return $this->restore->restore($id);
+        return $this->restore->execute($id);
     }
 
     protected function delete($id) {
-        return $this->delete->delete($id);
+        return $this->delete->execute($id);
     }
 }

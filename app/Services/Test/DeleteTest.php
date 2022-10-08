@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class DeleteTest extends Traits
 {
-    public function delete($id){
+    public function execute($id){
         try {
 
             Test::onlyTrashed()->findOrFail($id)->forceDelete();

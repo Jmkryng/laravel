@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class IndexTest extends Traits
 {
-    public function index(){        
+    public function execute(){        
         try {
             
             return $this->success("List of all test",  Test::all());
