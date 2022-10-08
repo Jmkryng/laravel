@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class ArchiveTest extends Traits
 {
-    public function archive($id){
+    public function execute($id){
         try {
         
             Test::findOrFail($id)->delete();

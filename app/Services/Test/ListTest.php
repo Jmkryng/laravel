@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class ListTest extends Traits
 {
-    public function list(){
+    public function execute(){
         try {
             
             return $this->success("List of all archived test",  Test::onlyTrashed()->get());

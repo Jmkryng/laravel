@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class UpdateTest extends Traits
 {
-    public function update($request, $id){
+    public function execute($request, $id){
         try {
             
             $test = Test::findOrFail($id);

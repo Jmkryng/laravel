@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class CreateTest extends Traits
 {
-    public function create($request){
+    public function execute($request){
         try {
             
             Test::create([

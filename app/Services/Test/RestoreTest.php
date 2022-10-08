@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class RestoreTest extends Traits
 {
-    public function restore($id){
+    public function execute($id){
         try {
             
             Test::onlyTrashed()->findOrFail($id)->restore();

@@ -8,7 +8,7 @@ use App\Models\Test\Test;
 
 class ShowTest extends Traits
 {
-    public function show($id){
+    public function execute($id){
         try {
             
             $test = Test::findOrFail($id);
