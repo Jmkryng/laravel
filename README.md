@@ -1,5 +1,5 @@
 # Laravel 9 Boilerplate
-> A Laravel Boilerplate with Services Design Pattern and Laravel Sanctum Ready
+> A Laravel Boilerplate with Services Design Pattern
 
 ## Setup Project
 Make a copy of `.env` using the file `env.example` and then add your MySQL database credentials to establish a connection.
