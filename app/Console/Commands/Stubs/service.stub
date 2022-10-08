@@ -6,7 +6,7 @@ use Traits, Exception;
 
 class DummyClass extends Traits
 {
-    public function execute($id){
+    public function execute(){
         try {
         
 
