@@ -1,5 +1,5 @@
 # Laravel 9 Boilerplate
-> A Laravel Boilerplate with Services Design Pattern
+> A Laravel Boilerplate with Services Design Pattern and Laravel Sanctum Ready
 
 ## Setup Project
 Make a copy of `.env` using the file `env.example` and then add your MySQL database credentials to establish a connection.
@@ -43,6 +43,7 @@ $ php artisan serve
 |`main`              |The default branch; Vanilla Laravel.  |
 |`repository`        |Repository Design Pattern             |
 |`service`           |Services Design Pattern               |
+|`service_sanctum`   |Services Design Pattern with Sanctum  |
 
 ## Commits 
 To be able for us to easily track our repository progress please use appropriate emojis at the start of description/message and issue-number at the end to determine type of commit.
