@@ -39,7 +39,6 @@ class RouteServiceProvider extends ServiceProvider
                 ->prefix('api')
                 ->group(function() {
                     require base_path('routes/api/test.php');
-                    require base_path('routes/api/user.php');
                 });
 
             // * WEB Route
