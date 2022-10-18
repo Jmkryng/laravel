@@ -38,11 +38,13 @@ $ php artisan serve
 ```
 
 ## Understanding the repository
-|Branch        		 |Description                           |
-|:------------------:|:------------------------------------:|
-|`main`              |The default branch; Vanilla Laravel.  |
-|`repository`        |Repository Design Pattern             |
-|`service`           |Services Design Pattern               |
+|Branch      	   |Description                          |
+|:----------------:|:-----------------------------------:|
+|`main`            |The default branch; Vanilla Laravel  |
+|`repository`      |Repository Design Pattern            |
+|`service`         |Services Design Pattern              |
+|`service_sanctum` |Services Design Pattern with Sanctum |
+
 ## Commits 
 To be able for us to easily track our repository progress please use appropriate emojis at the start of description/message and issue-number at the end to determine type of commit.
 
