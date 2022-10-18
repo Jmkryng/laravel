@@ -211,7 +211,8 @@ return [
 
     'aliases' => Facade::defaultAliases()->merge([
         // 'ExampleClass' => App\Example\ExampleClass::class,
-        'SoftDeletes' => Illuminate\Database\Eloquent\SoftDeletes::class
+        'SoftDeletes' => Illuminate\Database\Eloquent\SoftDeletes::class,
+        'Traits'      => App\Repositories\Traits::class
     ])->toArray(),
 
 ];

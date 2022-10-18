@@ -3,8 +3,12 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use App\Repositories\Eloquent\TestRepository;
-use App\Repositories\Interfaces\TestInterface;
+
+// * Repositories
+use App\Repositories\Test\TestRepository;
+
+// * Interfaces
+use App\Interfaces\TestInterface;
 
 class RepositoryServiceProvider extends ServiceProvider
 {

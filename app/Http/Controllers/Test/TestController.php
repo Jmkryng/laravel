@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Test;
 use App\Http\Controllers\Controller;
 
 // * Interface
-use App\Repositories\Interfaces\TestInterface;
+use App\Interfaces\TestInterface;
 
 // * Request
 use App\Http\Requests\Test\CreateTestRequest,
@@ -13,42 +13,42 @@ use App\Http\Requests\Test\CreateTestRequest,
 
 class TestController extends Controller
 {
-    private $repository;
+    private $interface;
 
-    public function __construct(TestInterface $testRepository){
-        $this->repository = $testRepository;
+    public function __construct(TestInterface $testInterface){
+        $this->interface = $testInterface;
     }
 
     protected function index() {
 
-        return $this->repository->index();
+        return $this->interface->index();
     }
     
     protected function create(CreateTestRequest $request) {
-        return $this->repository->create($request);
+        return $this->interface->create($request);
     }
     
     protected function show($id) {
-        return $this->repository->show($id);
+        return $this->interface->show($id);
     }
     
     protected function update(UpdateTestRequest $request, $id) {
-        return $this->repository->update($request, $id);
+        return $this->interface->update($request, $id);
     }
     
     protected function list(){
-        return $this->repository->list();
+        return $this->interface->list();
     }
     
     protected function archive($id){
-        return $this->repository->archive($id);
+        return $this->interface->archive($id);
     }
     
     protected function restore($id){
-        return $this->repository->restore($id);
+        return $this->interface->restore($id);
     }
 
     protected function delete($id) {
-        return $this->repository->delete($id);
+        return $this->interface->delete($id);
     }
 }

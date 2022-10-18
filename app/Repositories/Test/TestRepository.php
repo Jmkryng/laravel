@@ -1,16 +1,20 @@
 <?php 
 
-namespace App\Repositories\Eloquent;
+namespace App\Repositories\Test;
 
-use App\Repositories\BaseRepository;
-use App\Repositories\Interfaces\TestInterface;
+use Traits, Exception;
+
+// * Interfaces
+use App\Interfaces\TestInterface;
+
+// * Models
 use App\Models\Test\Test;
-use Exception;
 
-class TestRepository extends BaseRepository implements TestInterface
+class TestRepository extends Traits implements TestInterface
 {
     // * Simple Test Case CRUD with Archive and Restore
-
+    // * NOTE: This is a sample only: You can also follow the Single Responsibility of SOLID principles
+    
 	public function index(){        
         try {
             

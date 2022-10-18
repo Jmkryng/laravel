@@ -10,7 +10,7 @@ class Test extends Model
 {
     use HasFactory, SoftDeletes;
 
-    protected $table = "test";
+    protected $table = "tests";
 
     protected $fillable = [
         'test'
