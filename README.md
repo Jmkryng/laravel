@@ -1,4 +1,4 @@
-# Laravel 9 Boilerplate
+# Laravel 9 Boilerplate with Design Pattern
 > A Laravel Boilerplate with Repository Design Pattern
 
 ## Setup Project
@@ -38,12 +38,12 @@ $ php artisan serve
 ```
 
 ## Understanding the repository
-|Branch      	   |Description                          |
-|:----------------:|:-----------------------------------:|
-|`main`            |The default branch; Vanilla Laravel  |
-|`repository`      |Repository Design Pattern            |
-|`service`         |Services Design Pattern              |
-|`service_sanctum` |Services Design Pattern with Sanctum |
+|Branch      	        |Description                            |
+|:---------------------:|:-------------------------------------:|
+|`repository_sanctum`   |Repository Design Pattern with Sanctum |
+|`repository`           |Repository Design Pattern              |
+|`service`              |Services Design Pattern                |
+|`service_sanctum`      |Services Design Pattern with Sanctum   |
 
 ## Commits 
 To be able for us to easily track our repository progress please use appropriate emojis at the start of description/message and issue-number at the end to determine type of commit.
