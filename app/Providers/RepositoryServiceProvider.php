@@ -5,10 +5,12 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 
 // * Repositories
-use App\Repositories\Test\TestRepository;
+use App\Repositories\Test\TestRepository,
+    App\Repositories\User\UserRepository;
 
 // * Interfaces
-use App\Interfaces\TestInterface;
+use App\Interfaces\TestInterface,
+    App\Interfaces\UserInterface;
 
 class RepositoryServiceProvider extends ServiceProvider
 {
@@ -20,6 +22,7 @@ class RepositoryServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(TestInterface::class, TestRepository::class);
+        $this->app->bind(UserInterface::class, UserRepository::class);
     }
 
     /**
